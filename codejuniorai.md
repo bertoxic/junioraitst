@@ -6,17 +6,17 @@ In programming, a function is a block of code that performs a specific task or a
 
 A function typically has the following components:
 
-- **Function Name**: A unique identifier that represents the function and is used to call it. Function names must follow the syntax rules defined by the programming language.
+- **Function Name**:A unique identifier that represents the function and is used to call it. However, some programming languages, like JavaScript, have some anonymous functions without a name, so don’t be surprised if you come across such.
+- Function names must follow the syntax rules defined by the programming language. These rules usually include restrictions on character usage, length limitations, and whether certain reserved words or symbols can be used. For example, in Golang functions starting in Uppercase and those starting in lowercase are of different scopes.
 
-- **Parameters (Input)**: Optional inputs that the function can accept. Functions can have zero or more parameters.void myFunction(int x, String y) {
-  // function body
-}
+- **Parameters (Input)**: Optional inputs that the function can accept. Parameters allow values to be passed into the function for processing. Functions can have zero or more parameters.
 
-- **Function Body**: The block of code that contains the instructions and statements to be executed when the function is called.
+- **Function Body**: The block of code that contains the instructions and statements to be executed when the function is called. It defines the logic and actions that the function performs. In most programming languages they are placed in curly braces.
 
-- **Return Value (Output)**: An optional value that the function can return as a result of its execution.
+- **Return Value (Output)**: An optional value that the function can return as a result of its execution. Functions may perform computations or manipulations and provide the result back to the caller.
+ In most instances, the return type has to be declared at the start of the function to let the computer or some other function know what type of parameters to expect.
+ When a function is called, the program execution jumps to the function's body, executes the statements inside it, and then returns to the point where the function was called. The function can be called multiple times with different inputs, allowing for code reusability and avoiding repetitive code.
 
-When a function is called, the program execution jumps to the function's body, executes the statements inside it, and then returns to the point where the function was called. The function can be called multiple times with different inputs, allowing for code reusability and avoiding repetitive code.
 
 ## Why Functions?
 
@@ -32,7 +32,7 @@ Functions provide several benefits:
 
 Functions are fundamental in most programming languages, including JavaScript, Python, Java, C++, and many others. They play a vital role in structuring and organizing code to achieve efficient and maintainable software solutions.
 
-## Comparison and Differences in Function Syntax
+## Comparison and differences in Function syntax of different programming languages
 
 Here are examples of function declarations and parameters syntax in various programming languages:
 
